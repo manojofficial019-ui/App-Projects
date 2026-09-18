@@ -1,0 +1,26 @@
+name: pomodoro_timer
+description: A Pomodoro timer app with AdMob integration
+publish_to: "none"
+version: 2.0.3+4
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mobile_ads: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/pomodoro_app_icon.png"
+  min_sdk_android: 21

@@ -1,0 +1,7 @@
+storePassword=YOUR_KEYSTORE_PASSWORD
+keyPassword=YOUR_KEY_PASSWORD
+keyAlias=pomodoro-timer-key
+storeFile=upload-keystore.jks
+
+
+
