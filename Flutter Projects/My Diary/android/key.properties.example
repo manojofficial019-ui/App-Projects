@@ -1,0 +1,14 @@
+# Copy this file to `key.properties` and fill the values (do NOT commit `key.properties`).
+# Replace the placeholders with your real values.
+
+storePassword=YOUR_STORE_PASSWORD
+keyPassword=YOUR_KEY_PASSWORD
+keyAlias=YOUR_KEY_ALIAS
+# Use forward slashes on Windows or escape backslashes.
+storeFile=D:/WANTED/MYKageKeys/.jks
+
+# Example:
+# storePassword=abc123
+# keyPassword=abc123
+# keyAlias=mykey
+# storeFile=D:/WANTED/MYKageKeys/my-release-key.jks

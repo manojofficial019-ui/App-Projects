@@ -1,0 +1,45 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Flutter App",
+			"type": "shell",
+			"command": "flutter run",
+			"isBackground": false,
+			"problemMatcher": [
+				"$dart-flutter"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Flutter Pub Get",
+			"type": "shell",
+			"command": "flutter pub get",
+			"isBackground": false,
+			"problemMatcher": [
+				"$dart-flutter"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Run Flutter App",
+			"type": "shell",
+			"command": "flutter run",
+			"isBackground": false,
+			"problemMatcher": [
+				"$dart-flutter"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Run Flutter App",
+			"type": "shell",
+			"command": "flutter run",
+			"isBackground": false,
+			"problemMatcher": [
+				"$dart-flutter"
+			],
+			"group": "build"
+		}
+	]
+}
