@@ -118,6 +118,7 @@ public class MainActivity extends AppCompatActivity {
                 this, drawerLayout, toolbar,
                 R.string.drawer_open, R.string.drawer_close
         );
+        toggle.getDrawerArrowDrawable().setColor(android.graphics.Color.BLACK);
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
 
@@ -198,4 +199,3 @@ public class MainActivity extends AppCompatActivity {
         totalText.setText(String.format(Locale.getDefault(), "Total: ₹%.2f", total));
     }
 }
-
